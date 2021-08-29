@@ -1,0 +1,34 @@
+npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.26
+npm install --save truffle-hdwallet-provider
+//npm install --save next@4.1.4 react react-dom
+//Error: Next.js 4 requires React 16.
+npm remove react react-dom
+ npm install --save react@16 react-dom@16
+npm install --save semantic-ui-react
+npm install --save semantic-ui-css
+npm install --save next-routes
+
+deploye application: netlify
+address of deployment:0x00AFC65f3D00c1083D0502fB0adc16855dC33632
+2nd time deployment: 0x9abf414fA8876174661009B7f9bd7436ABdC17ee
+
+to Start Project use CMD: npm run dev 
+-------------------------------------
+Errors
+ModuleParseError: Module parse failed: C:\Path\node_modules\web3-core-helpers\lib\formatters.js Unexpected token (296:20)
+You may need an appropriate loader to handle this file type.
+|     // If options !== undefined, don't blow out existing data
+|     if (options.fromBlock === undefined)
+|         options = { ...options, fromBlock: 'latest' };
+|     if (options.fromBlock || options.fromBlock === 0)
+|         options.fromBlock = inputBlockNumberFormatter(options.fromBlock);
+    at C:\Path\node_modules\webpack\lib\NormalModule.js:303:19
+    at C:\Path\node_modules\webpack\lib\NormalModule.js:209:11
+    at C:\Path\node_modules\loader-runner\lib\LoaderRunner.js:373:3
+    at iterateNormalLoaders (C:\Path\node_modules\loader-runner\lib\LoaderRunner.js:214:10)
+    at C:\Path\node_modules\loader-runner\lib\LoaderRunner.js:205:4
+    at C:\Path\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:70:14
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+---------------
+Solution link : https://stackoverflow.com/questions/66374242/web3-formatter-js-loading-issue
+--------------------------------------
