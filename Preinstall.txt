@@ -11,6 +11,7 @@ npm install --save next-routes
 deploye application: netlify
 address of deployment:0x00AFC65f3D00c1083D0502fB0adc16855dC33632
 2nd time deployment: 0x9abf414fA8876174661009B7f9bd7436ABdC17ee
+rinkbey test network: https://rinkeby.infura.io/v3/2048571baa20457290df2b58112625b6
 
 to Start Project use CMD: npm run dev 
 -------------------------------------
